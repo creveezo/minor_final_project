@@ -5,7 +5,7 @@
 
 Ход работы:
 1. Собрать корпуса, на основе которых будет проанализирована частотность н-грамм. Для этого были взяты тексты библии, переведенные на языки мира. Тексты взяты из https://github.com/cisnlp/Taxi1500/tree/main/Taxi1500-c_v1.0
-Анализировались следующие языки: croatian, czech, dutch, english, finnish, french, gaelic, german, indonesian, italian, magyar, polish, portugese, romanian, serbian, spanish, swahili, swedish.
+Анализировались следующие языки: croatian, czech, dutch, english, finnish, gaelic, german, indonesian, italian, magyar, polish, portugese, romanian, serbian, spanish, swahili, swedish.
 
 2. Предобработка текстов. Тексты были очищены от знаков препинания, приведены к нижнему регистру.
 
