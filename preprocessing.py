@@ -1,12 +1,11 @@
 import os
 
-input_folder = "for_minor"
+input_folder = "input_folder_name"
 clean_folder = "corpora_preprocessed"
 
 os.makedirs(clean_folder, exist_ok=True)
 
 
-# Очистка и сохранение в новые файлы
 for filename in os.listdir(input_folder):
     if filename.endswith(".txt"):
         input_path = os.path.join(input_folder, filename)
