@@ -65,7 +65,6 @@ if sum(user_score.values()) == 0:
 else:
     user_score = {k: (v / sum(user_score.values()) * 100) for k, v in user_score.items()}
     user_score = sorted(user_score.items(), key=lambda item: item[1], reverse=True)
-    print(user_score)
     # подводим итоги
     print('================== и т о г и ==================')
     for i in range(0,3):
